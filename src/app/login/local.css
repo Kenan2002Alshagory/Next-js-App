@@ -1,0 +1,14 @@
+body{
+  background-image: url("../../../public/R.jpeg");
+  background-size: cover;
+}
+
+.login{
+  position: relative;
+}
+
+.form{
+  position: absolute;
+  top: 200px;
+  left: 140px;
+}

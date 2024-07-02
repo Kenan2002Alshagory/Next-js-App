@@ -1,0 +1,10 @@
+body{
+  background-color: rgb(255, 255, 255);
+background-repeat:no-repeat;
+}
+
+.pp{
+  height: 650px;
+  overflow: hidden;
+  overflow-y: scroll;
+}

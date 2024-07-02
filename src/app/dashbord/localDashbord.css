@@ -1,0 +1,19 @@
+.main{
+  display: flex;
+  height: 100vh;
+}
+
+.flex-item-right{
+  flex: 85%; /* Equal-width columns */
+}
+
+.flex-item-left {
+  flex: 12%; /* Equal-width columns */
+  
+}
+
+@media (max-width: 800px) {
+  .flex-item-left, .flex-item-right {
+      flex: 100%; /* One column layout */
+  }
+}
